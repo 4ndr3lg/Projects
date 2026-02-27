@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draconis Telemetry UI | Detalhes do Projeto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-header { padding: 10rem 10% 3rem; text-align: left; border-bottom: 1px solid var(--glass-border); }
+        .project-content { padding: 4rem 10%; max-width: 900px; margin: 0 auto; line-height: 1.8; color: #a0aec0; }
+        .project-content h2 { color: var(--text-light); margin: 2rem 0 1rem; font-weight: 500; }
+        .tech-stack { display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; }
+        .tech-tag { background: var(--glass-bg); border: 1px solid var(--bioluminescent-cyan); color: var(--bioluminescent-cyan); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.8rem; letter-spacing: 1px; }
+        .back-btn { position: fixed; top: 2rem; left: 5%; z-index: 101; color: var(--text-light); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s ease; }
+        .back-btn:hover { color: var(--bioluminescent-cyan); }
+    </style>
+</head>
+<body>
+    <div class="bubbles"></div>
+    <a href="index.html" class="back-btn">&larr; Voltar ao Portfólio</a>
+
+    <header class="project-header reveal">
+        <div class="hero-subtitle">Equipe Draconis | Business Intelligence</div>
+        <h1 style="font-size: 3rem; margin-bottom: 1rem;">Telemetry UI</h1>
+        <p>Dashboard de visualização de dados para otimização de performance e análise de mercado de drones.</p>
+    </header>
+
+    <main class="project-content">
+        <div class="reveal">
+            <h2>O Contexto</h2>
+            <p>
+                A equipe universitária Draconis precisava de uma maneira mais eficiente de interpretar os dados de voo de seus drones competitivos, além de estruturar informações sobre o mercado e a intenção de compra do produto. Dados brutos de telemetria são difíceis de analisar rapidamente durante uma operação.
+            </p>
+
+            <h2>A Solução</h2>
+            <p>
+                O projeto consistiu em desenvolver uma interface de telemetria (UI) focada em Business Intelligence. O painel traduz métricas complexas (como altitude, velocidade, e eficiência de bateria) em gráficos visuais intuitivos. A solução também engloba a coleta estruturada de dados do público, integrando formulários de intenção de compra para a equipe de marketing.
+            </p>
+
+            <h2>Meu Papel</h2>
+            <p>
+                Trabalhei na intersecção entre a análise de dados e a interface do usuário. Utilizei Python para processar os dados recebidos e bibliotecas de visualização para renderizar os painéis interativos. O foco foi garantir que a tomada de decisão da equipe fosse guiada por dados precisos e em tempo real.
+            </p>
+
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Business Intelligence</span>
+                <span class="tech-tag">Data Visualization</span>
+                <span class="tech-tag">UI/UX</span>
+            </div>
+
+            <a href="#" class="btn reveal" style="margin-top: 4rem;">Ver Projeto no GitHub</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

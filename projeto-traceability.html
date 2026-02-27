@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traceability System | Detalhes do Projeto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos específicos para a página de detalhes do projeto */
+        .project-header {
+            padding: 10rem 10% 3rem;
+            text-align: left;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .project-content {
+            padding: 4rem 10%;
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.8;
+            color: #a0aec0;
+        }
+
+        .project-content h2 {
+            color: var(--text-light);
+            margin: 2rem 0 1rem;
+            font-weight: 500;
+        }
+
+        .tech-stack {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .tech-tag {
+            background: var(--glass-bg);
+            border: 1px solid var(--bioluminescent-cyan);
+            color: var(--bioluminescent-cyan);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+
+        .back-btn {
+            position: fixed;
+            top: 2rem;
+            left: 5%;
+            z-index: 101;
+            color: var(--text-light);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        .back-btn:hover {
+            color: var(--bioluminescent-cyan);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bubbles"></div>
+
+    <a href="index.html" class="back-btn">&larr; Voltar ao Portfólio</a>
+
+    <header class="project-header reveal">
+        <div class="hero-subtitle">Walbert | Automação Industrial</div>
+        <h1 style="font-size: 3rem; margin-bottom: 1rem;">Traceability System</h1>
+        <p>Garantindo a rastreabilidade total na produção de ferramentas automotivas através de dados estruturados.</p>
+    </header>
+
+    <main class="project-content">
+        <div class="reveal">
+            <h2>O Desafio</h2>
+            <p>
+                Durante a fase de ideação na Walbert, o desafio era criar uma solução eficiente para monitorar e registrar cada etapa da produção de ferramentas automotivas. A falta de rastreabilidade pode levar a ineficiências, falhas na garantia de qualidade e dificuldade em identificar a origem de defeitos na linha de produção.
+            </p>
+
+            <h2>A Solução</h2>
+            <p>
+                Desenvolvi uma arquitetura focada na coleta e estruturação de dados em tempo real. O sistema permite o acompanhamento do ciclo de vida de cada ferramenta, desde a matéria-prima até a entrega final, garantindo que os padrões de qualidade sejam mantidos e registrados.
+            </p>
+
+            <h2>Meu Papel e Desenvolvimento</h2>
+            <p>
+                Como engenheiro focado em Python, atuei no backend construindo a lógica de estruturação desses dados. Foquei em criar um código limpo, escalável e capaz de lidar com a demanda do ambiente industrial, conectando os pontos de coleta de dados físicos com o banco de dados central.
+            </p>
+
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Automação</span>
+                <span class="tech-tag">Análise de Dados</span>
+                <span class="tech-tag">Engenharia de Software</span>
+            </div>
+
+            <a href="#" class="btn reveal" style="margin-top: 4rem;">Ver Repositório no GitHub</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

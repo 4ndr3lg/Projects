@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro 80s Clock | Detalhes do Projeto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-header { padding: 10rem 10% 3rem; text-align: left; border-bottom: 1px solid var(--glass-border); }
+        .project-content { padding: 4rem 10%; max-width: 900px; margin: 0 auto; line-height: 1.8; color: #a0aec0; }
+        .project-content h2 { color: var(--text-light); margin: 2rem 0 1rem; font-weight: 500; }
+        .tech-stack { display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; }
+        .tech-tag { background: var(--glass-bg); border: 1px solid var(--bioluminescent-cyan); color: var(--bioluminescent-cyan); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.8rem; letter-spacing: 1px; }
+        .back-btn { position: fixed; top: 2rem; left: 5%; z-index: 101; color: var(--text-light); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s ease; }
+        .back-btn:hover { color: var(--bioluminescent-cyan); }
+    </style>
+</head>
+<body>
+    <div class="bubbles"></div>
+    <a href="index.html" class="back-btn">&larr; Voltar ao Portfólio</a>
+
+    <header class="project-header reveal">
+        <div class="hero-subtitle">UI/UX | Python Development</div>
+        <h1 style="font-size: 3rem; margin-bottom: 1rem;">Retro 80s Digital Clock</h1>
+        <p>Um relógio digital que resgata a estética neon clássica através de programação moderna.</p>
+    </header>
+
+    <main class="project-content">
+        <div class="reveal">
+            <h2>A Ideia</h2>
+            <p>
+                Como um exercício criativo unindo lógica de programação e design, decidi desenvolver um relógio/alarme digital com uma forte estética retro dos anos 80. O desafio era recriar o brilho, a fonte segmentada e a interface nostálgica utilizando apenas código.
+            </p>
+
+            <h2>O Desenvolvimento</h2>
+            <p>
+                O projeto foi inteiramente construído utilizando Python. Explorei bibliotecas de interface gráfica para desenhar os dígitos de sete segmentos e aplicar efeitos de luz e sombra que emulam displays de LED antigos. O foco principal foi garantir uma UI/UX suave e imersiva, sem comprometer a performance do relógio.
+            </p>
+
+            <h2>Funcionalidades</h2>
+            <p>
+                Além de exibir a hora com precisão matemática, a aplicação inclui um sistema de alarme configurável e opções para alternar entre diferentes esquemas de cores típicos do movimento synthwave (ciano, magenta e laranja neon).
+            </p>
+
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">GUI Design</span>
+                <span class="tech-tag">UI/UX</span>
+                <span class="tech-tag">Lógica de Programação</span>
+            </div>
+
+            <a href="#" class="btn reveal" style="margin-top: 4rem;">Ver Código Fonte</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
